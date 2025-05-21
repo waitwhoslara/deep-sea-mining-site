@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Deep Sea Mining</title>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Cambay&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <style>
     body {
       background: url('istockphoto-511576181-612x612.jpg') no-repeat center center fixed;
@@ -17,130 +16,74 @@
     .overlay {
       background-color: rgba(0, 0, 40, 0.7);
       min-height: 100vh;
-      padding-bottom: 50px;
-    }
-    header {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 40px 20px;
-      background-color: rgba(0, 36, 61, 0.8);
+      text-align: center;
     }
-    header h1 {
+    h1 {
       font-family: 'Pacifico', cursive;
       font-size: 3em;
+      margin-bottom: 20px;
       color: #ffffff;
-      margin: 0;
     }
     nav {
-      text-align: center;
-      background-color: rgba(0, 40, 70, 0.8);
-      padding: 12px;
-      position: sticky;
-      top: 0;
-      z-index: 10;
+      margin-top: 20px;
     }
     nav a {
       color: #ffffff;
-      margin: 0 20px;
+      margin: 0 10px;
       text-decoration: none;
-      font-weight: bold;
       font-size: 1.1em;
     }
     nav a:hover {
       text-decoration: underline;
     }
-    .section-box {
+    .home-box {
       background-color: rgba(255, 255, 255, 0.85);
       color: #002244;
-      margin: 40px auto;
-      max-width: 900px;
-      padding: 40px 30px;
+      max-width: 700px;
+      padding: 30px;
       border-radius: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-    section h2 {
-      font-family: 'Pacifico', cursive;
-      color: #002244;
-      margin-bottom: 20px;
-    }
-    section p, section li {
-      font-family: 'Cambay', sans-serif;
+    .home-box p {
       font-size: 1.1em;
       line-height: 1.7em;
     }
-    section img {
-      width: 100%;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    .home-box h2 {
+      font-family: 'Pacifico', cursive;
+      color: #002244;
+      margin-bottom: 15px;
     }
     footer {
       text-align: center;
       padding: 20px;
-      background-color: rgba(0, 20, 40, 0.85);
-      font-size: 0.9em;
       color: #ffffff;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <header>
-      <h1>Deep Sea Mining</h1>
-    </header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="#background">Background</a>
-      <a href="#countries">Countries Affected</a>
-      <a href="#solutions">Solutions</a>
-      <a href="#resources">Resources</a>
-    </nav>
-
-    <section class="section-box" id="home">
+    <h1>Deep Sea Mining</h1>
+    <div class="home-box">
       <h2>Welcome</h2>
       <p><strong>Topic:</strong> Deep Sea Mining</p>
       <p><em>“Minerals on the seabed are centre-pieces of deep-sea ecosystems.”</em> – David Attenborough</p>
       <p><strong>Created by:</strong> Lara Erenoglu</p>
-    </section>
+    </div>
+    <nav>
+      <a href="background.html">Background</a>
+      <a href="countries.html">Countries Affected</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="resources.html">Resources</a>
+    </nav>
   </div>
-
-  <div class="overlay">
-    <section class="section-box" id="background">
-      <h2>Background</h2>
-      <p>Deep sea mining is the retrieval of minerals from the ocean floor — including cobalt, nickel, and rare earth elements. These are used in batteries, electronics, and clean energy tech.</p>
-      <p>The process disturbs delicate marine ecosystems, stirs sediment plumes, and generates light and noise pollution that threatens undiscovered species in the darkest parts of the sea.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ocean-mining.png" alt="Mining impact diagram">
-    </section>
-
-    <section class="section-box" id="countries">
-      <h2>Countries Affected</h2>
-      <ul>
-        <li><strong>Papua New Guinea:</strong> Proposed Solwara 1 project drew global protest due to ecological risk.</li>
-        <li><strong>Japan:</strong> Ran experimental mining projects in 2020 to explore ocean-based resources.</li>
-        <li><strong>Cook Islands:</strong> Exploring large-scale seabed mining licenses — sparking public concern.</li>
-      </ul>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/World_map_blank_without_borders.svg/1200px-World_map_blank_without_borders.svg.png" alt="Map of affected areas">
-    </section>
-
-    <section class="section-box" id="solutions">
-      <h2>Solutions & Conclusions</h2>
-      <p>Environmental groups, Indigenous activists, and scientists are calling for a moratorium until we better understand the impact. Nations are pushing for treaties through the International Seabed Authority (ISA).</p>
-      <p>On an individual level: support sustainable tech, vote for climate-conscious policy, and spread awareness about deep ocean conservation.</p>
-      <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/earth-1837425_960_720.jpg" alt="Earth image">
-    </section>
-
-    <section class="section-box" id="resources">
-      <h2>Resources & Credits</h2>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=Fcr4w5v3C1o" target="_blank">YouTube: What is Deep Sea Mining?</a></li>
-        <li><a href="https://www.greenpeace.org/international/story/29598/what-is-deep-sea-mining-and-why-is-it-bad-news/" target="_blank">Greenpeace Article</a></li>
-        <li>Sources: National Geographic, BBC News, Greenpeace.org</li>
-      </ul>
-    </section>
-
-    <footer>
-      &copy; 2025 Deep Sea Awareness Project | Designed by Lara 🌊
-    </footer>
-  </div>
+  <footer>
+    &copy; 2025 Deep Sea Awareness Project | Designed by Lara 🌊
+  </footer>
 </body>
 </html>
-
