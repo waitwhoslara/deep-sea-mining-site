@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Human Impact Project – Lara Erenoglu</title>
+  <title>Background – Deep Sea Mining</title>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Cambay&display=swap" rel="stylesheet">
   <style>
     body {
@@ -14,33 +14,23 @@
       color: #ffffff;
     }
     .overlay {
-      background-color: rgba(0, 0, 40, 0.6);
+      background-color: rgba(0, 0, 40, 0.75);
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       padding: 60px 20px;
+    }
+    header {
       text-align: center;
+      margin-bottom: 40px;
     }
-    h1 {
+    header h1 {
       font-family: 'Pacifico', cursive;
-      font-size: 3.5em;
+      font-size: 2.8em;
+      margin: 0;
       color: #ffffff;
-      margin: 0 0 10px;
-    }
-    .quote {
-      font-style: italic;
-      font-size: 1.3em;
-      max-width: 700px;
-      margin: 10px auto 30px;
-    }
-    .author {
-      font-size: 1em;
-      color: #d0eaff;
     }
     nav {
-      margin-top: 30px;
+      text-align: center;
+      margin-top: 10px;
     }
     nav a {
       color: #ffffff;
@@ -52,28 +42,57 @@
     nav a:hover {
       border-bottom: 2px solid #ffffff;
     }
+    section {
+      background-color: rgba(255, 255, 255, 0.88);
+      color: #002244;
+      max-width: 1000px;
+      margin: 0 auto 60px;
+      padding: 50px;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    }
+    section h2 {
+      font-family: 'Pacifico', cursive;
+      color: #002244;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+    }
     footer {
       text-align: center;
       padding: 20px;
-      color: #ffffff;
       font-size: 0.9em;
+      color: #ffffff;
     }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <h1>Human Impact Project</h1>
-    <p class="quote">“Minerals on the seabed are centre-pieces of deep-sea ecosystems.”</p>
-    <p class="author">– David Attenborough</p>
-    <nav>
-      <a href="background.html">Background</a>
-      <a href="countries.html">Countries Affected</a>
-      <a href="solutions.html">Solutions</a>
-      <a href="resources.html">Resources</a>
-    </nav>
+    <header>
+      <h1>Background</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="background.html">Background</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>What is Deep Sea Mining?</h2>
+      <p>Deep sea mining is the extraction of valuable minerals from the ocean floor, including cobalt, nickel, copper, and rare earth elements. These materials are often used to make electronics, electric car batteries, and other energy technologies.</p>
+
+      <p>Although these minerals can contribute to the reduction of pollution, many of these mines are on extremely fragile ecosystems such as hydrothermal vents and abyssal plains. Organisms in the deep sea have taken millions of years to adapt to the conditions, and disrupting their environments could cause permanent damage.</p>
+
+      <p>According to the International Union for Conservation of Nature , over 1.5 million km² of seabed are already under mining licenses. In comparison, this is nearly the size of alaska. (<a href="https://www.iucn.org/resources/issues-brief/deep-sea-mining" target="_blank">IUCN</a>)</p>
+    <div style="text-align:center;">
+  <img src="Figure-2.webp" alt="Deep Sea Mining Impact Diagram" style="width:70%; border-radius: 50px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); margin-top: 30px;">
+</div>
+</section>
+
+    <footer>
+      &copy; Human Impact Project by Lara Erenoglu
+    </footer>
   </div>
-  <footer>
-    &copy; Human Impact Project by Lara Erenoglu
-  </footer>
 </body>
 </html>
