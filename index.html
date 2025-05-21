@@ -34,6 +34,9 @@
       text-align: center;
       background-color: rgba(0, 40, 70, 0.8);
       padding: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
     nav a {
       color: #ffffff;
@@ -45,7 +48,7 @@
     nav a:hover {
       text-decoration: underline;
     }
-    section {
+    .section-box {
       background-color: rgba(255, 255, 255, 0.85);
       color: #002244;
       margin: 40px auto;
@@ -85,28 +88,30 @@
       <h1>Deep Sea Mining</h1>
     </header>
     <nav>
-      <a href="#home">Home</a>
+      <a href="index.html">Home</a>
       <a href="#background">Background</a>
       <a href="#countries">Countries Affected</a>
       <a href="#solutions">Solutions</a>
       <a href="#resources">Resources</a>
     </nav>
 
-    <section id="home">
+    <section class="section-box" id="home">
       <h2>Welcome</h2>
       <p><strong>Topic:</strong> Deep Sea Mining</p>
       <p><em>“Minerals on the seabed are centre-pieces of deep-sea ecosystems.”</em> – David Attenborough</p>
       <p><strong>Created by:</strong> Lara Erenoglu</p>
     </section>
+  </div>
 
-    <section id="background">
+  <div class="overlay">
+    <section class="section-box" id="background">
       <h2>Background</h2>
       <p>Deep sea mining is the retrieval of minerals from the ocean floor — including cobalt, nickel, and rare earth elements. These are used in batteries, electronics, and clean energy tech.</p>
       <p>The process disturbs delicate marine ecosystems, stirs sediment plumes, and generates light and noise pollution that threatens undiscovered species in the darkest parts of the sea.</p>
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ocean-mining.png" alt="Mining impact diagram">
     </section>
 
-    <section id="countries">
+    <section class="section-box" id="countries">
       <h2>Countries Affected</h2>
       <ul>
         <li><strong>Papua New Guinea:</strong> Proposed Solwara 1 project drew global protest due to ecological risk.</li>
@@ -116,14 +121,14 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/World_map_blank_without_borders.svg/1200px-World_map_blank_without_borders.svg.png" alt="Map of affected areas">
     </section>
 
-    <section id="solutions">
+    <section class="section-box" id="solutions">
       <h2>Solutions & Conclusions</h2>
       <p>Environmental groups, Indigenous activists, and scientists are calling for a moratorium until we better understand the impact. Nations are pushing for treaties through the International Seabed Authority (ISA).</p>
       <p>On an individual level: support sustainable tech, vote for climate-conscious policy, and spread awareness about deep ocean conservation.</p>
       <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/earth-1837425_960_720.jpg" alt="Earth image">
     </section>
 
-    <section id="resources">
+    <section class="section-box" id="resources">
       <h2>Resources & Credits</h2>
       <ul>
         <li><a href="https://www.youtube.com/watch?v=Fcr4w5v3C1o" target="_blank">YouTube: What is Deep Sea Mining?</a></li>
